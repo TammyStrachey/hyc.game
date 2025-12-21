@@ -36,7 +36,7 @@
         /* 雪花效果 */
         .snowflake {
             position: fixed;
-            background-color: rgba(102, 242, 255, 0.5); /* #66f2ff */
+            background-color: rgba(102, 204, 255, 0.5); /* 天依蓝 */
             border-radius: 50%;
             pointer-events: none;
             z-index: 1;
@@ -54,9 +54,9 @@
             text-align: center;
             margin-bottom: 40px;
             padding: 30px;
-            background: rgba(102, 204, 255, 0.2); /* #66ccff */
+            background: rgba(102, 204, 255, 0.15); /* 天依蓝 */
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(102, 204, 255, 0.1);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(102, 204, 255, 0.3);
             position: relative;
@@ -70,7 +70,7 @@
             left: 0;
             width: 100%;
             height: 5px;
-            background: linear-gradient(90deg, #66ffe6, #66f2ff, #66ccff, #66a6ff, #6680ff); /* 蓝色渐变 */
+            background: linear-gradient(90deg, #66ffe6, #66f2ff, #66ccff, #66a6ff, #6680ff);
             background-size: 200% 100%;
             animation: rainbow 3s linear infinite;
         }
@@ -90,7 +90,7 @@
         
         .luotianyi-quote {
             font-size: 1.4rem;
-            color: #66ccff;
+            color: #66ccff; /* 天依蓝 */
             font-style: italic;
             margin-top: 15px;
             padding: 10px;
@@ -114,7 +114,7 @@
         }
         
         .game-btn {
-            background: linear-gradient(145deg, rgba(102, 204, 255, 0.7), rgba(102, 166, 255, 0.7)); /* #66ccff to #66a6ff */
+            background: linear-gradient(145deg, rgba(102, 204, 255, 0.6), rgba(102, 166, 255, 0.6)); /* 天依蓝-蓝 */
             color: #003366;
             border: none;
             padding: 25px 40px;
@@ -122,10 +122,10 @@
             border-radius: 15px;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.3);
+            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.2);
             min-width: 220px;
             backdrop-filter: blur(10px);
-            border: 2px solid rgba(102, 204, 255, 0.4);
+            border: 2px solid rgba(102, 204, 255, 0.3);
             position: relative;
             overflow: hidden;
         }
@@ -137,7 +137,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
             transition: 0.5s;
         }
         
@@ -147,8 +147,8 @@
         
         .game-btn:hover {
             transform: translateY(-8px) scale(1.05);
-            box-shadow: 0 15px 30px rgba(102, 204, 255, 0.5);
-            background: linear-gradient(145deg, rgba(102, 204, 255, 0.9), rgba(102, 166, 255, 0.9));
+            box-shadow: 0 15px 30px rgba(102, 204, 255, 0.3);
+            background: linear-gradient(145deg, rgba(102, 204, 255, 0.8), rgba(102, 166, 255, 0.8));
         }
         
         .game-btn:active {
@@ -162,13 +162,13 @@
         
         .game-container {
             display: none;
-            background: rgba(102, 204, 255, 0.15);
+            background: rgba(102, 204, 255, 0.1); /* 天依蓝 */
             border-radius: 20px;
             padding: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(102, 204, 255, 0.1);
             margin-top: 20px;
             backdrop-filter: blur(15px);
-            border: 1px solid rgba(102, 204, 255, 0.3);
+            border: 1px solid rgba(102, 204, 255, 0.2);
             position: relative;
             overflow: hidden;
         }
@@ -180,15 +180,15 @@
             left: 0;
             width: 100%;
             height: 5px;
-            background: linear-gradient(90deg, #66ffe6, #66f2ff, #66ccff, #66a6ff, #6680ff);
+            background: linear-gradient(90deg, #66ffe6, #66f2ff, #66ccff);
         }
         
         .game-title {
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 25px;
-            color: #66ccff;
-            text-shadow: 0 0 5px rgba(102, 204, 255, 0.3);
+            color: #fff4b6; /* 浅黄 */
+            text-shadow: 0 0 5px rgba(255, 244, 182, 0.3);
             position: relative;
             display: inline-block;
             left: 50%;
@@ -202,7 +202,7 @@
             left: 0;
             width: 100%;
             height: 3px;
-            background: linear-gradient(90deg, transparent, #66ccff, transparent);
+            background: linear-gradient(90deg, transparent, #fff4b6, transparent);
         }
         
         /* 规则弹出窗口样式 */
@@ -221,14 +221,14 @@
         }
         
         .rules-modal-content {
-            background: rgba(230, 245, 255, 0.95); /* 淡蓝色背景 */
+            background: rgba(102, 242, 255, 0.95); /* 浅蓝 */
             padding: 40px;
             border-radius: 20px;
             width: 90%;
             max-width: 700px;
             text-align: center;
-            box-shadow: 0 20px 50px rgba(102, 204, 255, 0.4);
-            border: 2px solid #66ccff;
+            box-shadow: 0 20px 50px rgba(102, 242, 255, 0.3);
+            border: 2px solid #66ccff; /* 天依蓝 */
             animation: modalAppear 0.5s ease-out;
             backdrop-filter: blur(20px);
             max-height: 80vh;
@@ -248,7 +248,7 @@
         .rules-title {
             font-size: 2.2rem;
             margin-bottom: 25px;
-            color: #66ccff;
+            color: #6680ff; /* 深蓝 */
             text-shadow: none;
         }
         
@@ -258,26 +258,26 @@
             text-align: left;
             margin-bottom: 30px;
             padding: 0 15px;
-            color: #003366;
+            color: #003366; /* 深蓝 */
         }
         
         .rules-text p {
             margin-bottom: 12px;
             padding-left: 10px;
-            border-left: 3px solid #66ccff;
+            border-left: 3px solid #66ccff; /* 天依蓝 */
             color: #003366;
         }
         
         .rules-countdown {
             font-size: 1.6rem;
             margin: 25px 0;
-            color: #fff4b6; /* 点缀色 */
+            color: #fff4b6; /* 浅黄 */
             font-weight: bold;
             text-shadow: none;
         }
         
         .rules-close-btn {
-            background: linear-gradient(145deg, #66ccff, #66a6ff);
+            background: linear-gradient(145deg, #66ccff, #66a6ff); /* 天依蓝渐变 */
             color: white;
             border: none;
             padding: 12px 35px;
@@ -285,7 +285,7 @@
             cursor: pointer;
             font-size: 1.2rem;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.4);
+            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.3);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.3);
         }
@@ -293,7 +293,7 @@
         .rules-close-btn:hover {
             background: linear-gradient(145deg, #76dcff, #76b6ff);
             transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.6);
+            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.4);
         }
         
         @keyframes fadeIn {
@@ -319,10 +319,10 @@
         }
         
         .player-section, .computer-section {
-            background: rgba(102, 204, 255, 0.15);
+            background: rgba(102, 204, 255, 0.1); /* 天依蓝 */
             padding: 25px;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.1);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(102, 204, 255, 0.2);
         }
@@ -330,7 +330,7 @@
         .section-title {
             font-size: 1.6rem;
             margin-bottom: 15px;
-            color: #66f2ff; /* #66f2ff */
+            color: #66f2ff; /* 浅蓝 */
             border-bottom: 2px solid #66f2ff;
             padding-bottom: 8px;
             text-shadow: 0 0 3px rgba(102, 242, 255, 0.3);
@@ -345,7 +345,7 @@
         }
         
         .number-item, .stone-pile {
-            background: linear-gradient(145deg, rgba(102, 204, 255, 0.6), rgba(102, 166, 255, 0.6));
+            background: linear-gradient(145deg, rgba(102, 204, 255, 0.5), rgba(102, 242, 255, 0.5)); /* 天依蓝-浅蓝 */
             width: 110px;
             height: 110px;
             border-radius: 50%;
@@ -354,10 +354,10 @@
             justify-content: center;
             font-size: 2.8rem;
             font-weight: bold;
-            box-shadow: 0 8px 15px rgba(102, 204, 255, 0.3);
+            box-shadow: 0 8px 15px rgba(102, 204, 255, 0.2);
             transition: all 0.3s ease;
             backdrop-filter: blur(5px);
-            border: 2px solid rgba(102, 204, 255, 0.4);
+            border: 2px solid rgba(102, 204, 255, 0.3);
             color: #003366;
             position: relative;
             overflow: hidden;
@@ -370,7 +370,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
             opacity: 0;
             transition: opacity 0.3s;
         }
@@ -388,14 +388,14 @@
         
         .pile-count {
             font-size: 3.2rem;
-            color: #fff4b6; /* 点缀色 */
+            color: #fff4b6; /* 浅黄 */
             text-shadow: 0 0 8px rgba(255, 244, 182, 0.3);
         }
         
         .pile-label {
             font-size: 1.1rem;
             margin-top: 5px;
-            color: #66f2ff;
+            color: #66f2ff; /* 浅蓝 */
         }
         
         .controls {
@@ -414,7 +414,7 @@
         }
         
         .control-btn {
-            background: linear-gradient(145deg, rgba(102, 242, 255, 0.7), rgba(102, 204, 255, 0.7));
+            background: linear-gradient(145deg, rgba(102, 242, 255, 0.6), rgba(102, 204, 255, 0.6)); /* 浅蓝-天依蓝 */
             color: #003366;
             border: none;
             padding: 12px 25px;
@@ -424,13 +424,13 @@
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(102, 204, 255, 0.3);
-            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(102, 242, 255, 0.2);
         }
         
         .control-btn:hover {
-            background: linear-gradient(145deg, rgba(122, 252, 255, 0.9), rgba(122, 224, 255, 0.9));
+            background: linear-gradient(145deg, rgba(122, 252, 255, 0.8), rgba(122, 224, 255, 0.8));
             transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.5);
+            box-shadow: 0 8px 20px rgba(102, 242, 255, 0.3);
         }
         
         .control-btn:disabled {
@@ -448,7 +448,7 @@
         }
         
         .pile-control {
-            background: rgba(102, 204, 255, 0.1);
+            background: rgba(102, 204, 255, 0.1); /* 天依蓝 */
             padding: 15px;
             border-radius: 10px;
             display: flex;
@@ -461,14 +461,14 @@
         select, input {
             padding: 10px;
             border-radius: 8px;
-            border: 1px solid rgba(102, 204, 255, 0.6);
+            border: 1px solid rgba(102, 204, 255, 0.5);
             background: rgba(255, 255, 255, 0.95);
             font-size: 1rem;
             color: #333;
         }
         
         .action-btn {
-            background: linear-gradient(145deg, rgba(102, 166, 255, 0.7), rgba(102, 204, 255, 0.7));
+            background: linear-gradient(145deg, rgba(255, 204, 212, 0.6), rgba(102, 204, 255, 0.6)); /* 浅粉-天依蓝 */
             color: #003366;
             border: none;
             padding: 15px 30px;
@@ -479,13 +479,13 @@
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(102, 204, 255, 0.3);
-            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(255, 204, 212, 0.2);
         }
         
         .action-btn:hover {
-            background: linear-gradient(145deg, rgba(122, 186, 255, 0.9), rgba(122, 224, 255, 0.9));
+            background: linear-gradient(145deg, rgba(255, 214, 222, 0.8), rgba(122, 214, 255, 0.8));
             transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.5);
+            box-shadow: 0 8px 20px rgba(255, 204, 212, 0.3);
         }
         
         .console {
@@ -503,14 +503,14 @@
         }
         
         .console-title {
-            color: #fff4b6; /* 点缀色 */
+            color: #fff4b6; /* 浅黄 */
             margin-bottom: 10px;
             font-size: 1.2rem;
             text-shadow: 0 0 3px rgba(255, 244, 182, 0.3);
         }
         
         .exit-btn {
-            background: linear-gradient(145deg, rgba(102, 204, 255, 0.7), rgba(102, 166, 255, 0.7));
+            background: linear-gradient(145deg, rgba(102, 204, 255, 0.6), rgba(102, 166, 255, 0.6)); /* 天依蓝-蓝 */
             color: #003366;
             border: none;
             padding: 15px 40px;
@@ -522,22 +522,22 @@
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(102, 204, 255, 0.3);
-            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.2);
         }
         
         .exit-btn:hover {
-            background: linear-gradient(145deg, rgba(122, 224, 255, 0.9), rgba(122, 186, 255, 0.9));
+            background: linear-gradient(145deg, rgba(122, 214, 255, 0.8), rgba(122, 186, 255, 0.8));
             transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.5);
+            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.3);
         }
         
         .move-counter {
             text-align: center;
             font-size: 1.3rem;
             margin-bottom: 15px;
-            color: #fff4b6;
+            color: #fff4b6; /* 浅黄 */
             text-shadow: 0 0 3px rgba(255, 244, 182, 0.3);
-            background: rgba(102, 204, 255, 0.15);
+            background: rgba(102, 204, 255, 0.1); /* 天依蓝 */
             padding: 10px;
             border-radius: 10px;
             display: inline-block;
@@ -561,14 +561,14 @@
         }
         
         .result-modal-content {
-            background: rgba(230, 245, 255, 0.95);
+            background: rgba(102, 242, 255, 0.95); /* 浅蓝 */
             padding: 50px;
             border-radius: 25px;
             width: 90%;
             max-width: 550px;
             text-align: center;
-            box-shadow: 0 20px 50px rgba(102, 204, 255, 0.4);
-            border: 2px solid #66ccff;
+            box-shadow: 0 20px 50px rgba(102, 242, 255, 0.3);
+            border: 2px solid #66ccff; /* 天依蓝 */
             animation: modalAppear 0.5s ease-out;
             backdrop-filter: blur(20px);
             position: relative;
@@ -596,7 +596,7 @@
         .result-title {
             font-size: 2.8rem;
             margin-bottom: 20px;
-            color: #66ccff;
+            color: #6680ff; /* 深蓝 */
             text-shadow: none;
         }
         
@@ -605,14 +605,14 @@
             line-height: 1.6;
             margin-bottom: 30px;
             white-space: pre-line;
-            color: #003366;
+            color: #003366; /* 深蓝 */
             padding: 15px;
             background: rgba(255, 255, 255, 0.3);
             border-radius: 10px;
         }
         
         .result-btn {
-            background: linear-gradient(145deg, #66ccff, #66a6ff);
+            background: linear-gradient(145deg, #66ccff, #66a6ff); /* 天依蓝渐变 */
             color: white;
             border: none;
             padding: 15px 40px;
@@ -623,13 +623,13 @@
             margin: 10px;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.4);
+            box-shadow: 0 5px 15px rgba(102, 204, 255, 0.3);
         }
         
         .result-btn:hover {
             background: linear-gradient(145deg, #76dcff, #76b6ff);
             transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.6);
+            box-shadow: 0 8px 20px rgba(102, 204, 255, 0.4);
         }
         
         .result-btn-restart {
@@ -665,7 +665,7 @@
         }
         
         .active {
-            border: 3px solid #fff4b6; /* 点缀色 */
+            border: 3px solid #fff4b6; /* 浅黄 */
             box-shadow: 0 0 15px rgba(255, 244, 182, 0.5);
         }
         
@@ -863,7 +863,7 @@
         let game1Active = false;
         let game2Active = false;
         
-        // 1+1游戏状态
+        // 1+1游戏状态 - 使用新C++算法
         let game1State = {
             playerNums: [1, 1],
             opponentNums: [1, 1],
@@ -875,7 +875,7 @@
         
         // 拿石子游戏状态
         let game2State = {
-            piles: [], // 初始为空，将由C++算法生成
+            piles: [],
             playerTurn: true,
             gameOver: false,
             selectedPile: null,
@@ -883,7 +883,153 @@
             violationCount: 0
         };
         
-        // C++算法函数移植
+        // C++算法中的res数组
+        const res = [
+            [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+            [-1, 1,   0,   0.5, 0,   0,   1,   1,   0.5, 1],
+            [-1, 0.5, 1,   1,   0,   1,   0.5, 0,   1,   0],
+            [-1, 1,   0,   1,   0.5, 0,   0,   1,   1,   0.5],
+            [-1, 1,   0.5, 0,   1,   1,   1,   0.5, 0,   0],
+            [-1, 0,   1,   0,   1,   1,   1,   0,   1,   0],
+            [-1, 0,   0,   0.5, 1,   1,   1,   0,   0.5, 1],
+            [-1, 0.5, 1,   1,   0,   0,   0.5, 1,   0,   1],
+            [-1, 0,   1,   0,   0.5, 1,   0,   1,   1,   0.5],
+            [-1, 1,   0.5, 1,   1,   0,   0,   0.5, 0,   1]
+        ];
+        
+        let ci = 0;
+        
+        // 移植C++中的dfs函数
+        function dfs(cnt, a, b, c, lc) {
+            if (c === 0) {
+                return 0;
+            }
+            if ((b === 0 && res[c][a] === 1) || (a === 0 && res[c][b] === 1)) return 0;
+            if ((b === 0 && res[c][a] < 1) || (a === 0 && res[c][b] < 1)) return 1;
+            if (cnt === 20) return 1;
+            
+            if (lc === 0) {
+                // 轮到玩家
+                let ans1 = dfs(cnt + 1, a, b, (c + a) % 10, 1);
+                let ans2 = dfs(cnt + 1, a, b, (c + b) % 10, 1);
+                if (ans1 === 0 || ans2 === 0) {
+                    return 0;
+                } else {
+                    return 1;
+                }
+            } else {
+                // 轮到电脑
+                let ans1 = dfs(cnt + 1, (c + a) % 10, b, c, 0);
+                let ans2 = dfs(cnt + 1, a, (c + b) % 10, c, 0);
+                if (ans1 === 0 && ans2 === 0) {
+                    return 0;
+                } else {
+                    return 1;
+                }
+            }
+        }
+        
+        // 移植C++中的电脑AI逻辑
+        function computerAI() {
+            const player = game1State.playerNums;
+            const computer = game1State.opponentNums;
+            
+            // 检查游戏结束条件
+            if (player[0] === 0 && player[1] === 0) {
+                // 玩家输了
+                return false;
+            }
+            if (computer[0] === 0 && computer[1] === 0) {
+                // 电脑输了
+                return false;
+            }
+            
+            if (player[0] !== 0 && player[1] !== 0 && computer[0] !== 0 && computer[1] !== 0) {
+                let flag = 0;
+                // 优先检查是否能凑10
+                for (let i = 2; i >= 1; i--) {
+                    for (let j = 2; j >= 1; j--) {
+                        if (flag) break;
+                        if (computer[i-1] + player[j-1] === 10) {
+                            let otheri = (i === 1) ? 2 : 1;
+                            let otherj = (j === 1) ? 2 : 1;
+                            computer[i-1] = (computer[i-1] + player[otherj-1]) % 10;
+                            flag = 1;
+                        }
+                    }
+                }
+                
+                // 如果不能凑10，找安全的移动
+                if (!flag) {
+                    for (let i = 2; i >= 1; i--) {
+                        for (let j = 2; j >= 1; j--) {
+                            if (flag) break;
+                            let q = (computer[i-1] + player[j-1]) % 10;
+                            let bo = 0;
+                            for (let k = 1; k <= 2; k++) {
+                                if (q + player[k-1] === 10) bo = 1;
+                            }
+                            if (bo) continue;
+                            else {
+                                computer[i-1] = q;
+                                flag = 1;
+                            }
+                        }
+                    }
+                }
+                
+                // 如果还没有找到，使用dfs算法
+                if (!flag) {
+                    for (let i = 1; i <= 2; i++) {
+                        for (let j = 1; j <= 2; j++) {
+                            if (flag) break;
+                            let q = (computer[i-1] + player[j-1]) % 10;
+                            let otheri = (i === 1) ? 2 : 1;
+                            let otherj = (j === 1) ? 2 : 1;
+                            for (let k = 1; k <= 2; k++) {
+                                if (dfs(0, computer[otheri-1], q, player[k-1], 0)) {
+                                    flag = 1;
+                                    computer[i-1] = q;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                // 如果还是没有找到，默认移动
+                if (!flag) {
+                    computer[0] = (computer[0] + player[1]) % 10;
+                }
+            } else if ((player[0] === 0 || player[1] === 0) && computer[0] !== 0 && computer[1] !== 0) {
+                let x = (player[0] === 0) ? 2 : 1;
+                ci = 0;
+                
+                if (dfs(0, (computer[0] + player[x-1]) % 10, computer[1], player[x-1], 0)) {
+                    computer[0] = (computer[0] + player[x-1]) % 10;
+                } else {
+                    let re1 = ci;
+                    ci = 0;
+                    if (dfs(0, computer[0], (computer[1] + player[x-1]) % 10, player[x-1], 0)) {
+                        computer[1] = (computer[1] + player[x-1]) % 10;
+                    } else {
+                        if (ci > re1) {
+                            computer[0] = (computer[0] + player[x-1]) % 10;
+                        } else {
+                            computer[1] = (computer[1] + player[x-1]) % 10;
+                        }
+                    }
+                }
+            } else {
+                let x = (player[0] === 0) ? 2 : 1;
+                let y = (computer[0] === 0) ? 2 : 1;
+                computer[y-1] = (computer[y-1] + player[x-1]) % 10;
+            }
+            
+            game1State.moveCount++;
+            return true;
+        }
+        
+        // 拿石子游戏C++算法函数
         function getRand(l, r) {
             return Math.floor(Math.random() * (r - l + 1)) + l;
         }
@@ -933,10 +1079,22 @@
         
         function computerMove(stoneArray) {
             const Xor = getxor(stoneArray);
-            for (let i = 0; i < 7; i++) {
-                if (stoneArray[i] >= Xor) {
-                    stoneArray[i] -= Xor;
-                    break;
+            if (Xor === 0) {
+                // 如果没有必胜策略，随机移动
+                const nonEmptyPiles = [];
+                stoneArray.forEach((count, index) => {
+                    if (count > 0) nonEmptyPiles.push(index);
+                });
+                
+                const pileIndex = nonEmptyPiles[Math.floor(Math.random() * nonEmptyPiles.length)];
+                const takeAmount = Math.floor(Math.random() * stoneArray[pileIndex]) + 1;
+                stoneArray[pileIndex] -= takeAmount;
+            } else {
+                for (let i = 0; i < 7; i++) {
+                    if (stoneArray[i] >= Xor) {
+                        stoneArray[i] -= Xor;
+                        break;
+                    }
                 }
             }
             return stoneArray;
@@ -1018,9 +1176,11 @@
         function showGame(game) {
             currentGame = game;
             
+            // 隐藏所有游戏容器
             game1Container.style.display = 'none';
             game2Container.style.display = 'none';
             
+            // 显示选中的游戏
             if (game === 'game1') {
                 game1Container.style.display = 'block';
             } else if (game === 'game2') {
@@ -1029,6 +1189,7 @@
                 renderStoneControls();
             }
             
+            // 重置退出按钮
             exitGame1Btn.style.display = 'none';
             exitGame2Btn.style.display = 'none';
         }
@@ -1041,28 +1202,33 @@
                     <p>1. 初始双方分别有两个数字1</p>
                     <p>2. 双方轮流操作，每次操作可以选择自己存活的任意一个数字，加上对方存活的任意一个数字，然后取它的个位数</p>
                     <p>3. 数字存活的定义：该数字不等于零</p>
-                    <p>4. 先让对方两个数字均不存活的一方获胜（注意：这里的获胜条件是让对方数字不存活）</p>
-                    <p>5. 如果双方已走50步以上不分胜负，则为平局</p>
+                    <p>4. 先让对方两个数字均不存活的一方获胜</p>
+                    <p>5. 如果双方已走40步以上不分胜负，则为平局</p>
+                    <p>6. 违例2次直接判负</p>
                 `;
                 startGame1();
             } else if (game === 'game2') {
                 rulesTitle.textContent = '拿石子游戏规则';
                 rulesText.innerHTML = `
-                    <p>1. 地上有7堆石子，初始每堆石子数量随机(1-10)</p>
+                    <p>1. 地上有7堆石子，初始每堆石子数量随机(1-7)</p>
                     <p>2. 每人每次可从任意一堆石子里取出任意多枚石子扔掉</p>
                     <p>3. 可以取完，不能不取</p>
                     <p>4. 每次只能从一堆里取</p>
                     <p>5. 最后没石子可取的人就输了</p>
+                    <p>6. 违例2次直接判负</p>
                 `;
                 startGame2();
             }
             
+            // 显示规则窗口
             rulesModal.style.display = 'flex';
             rulesTimeLeft = 15;
             rulesCountdown.textContent = `窗口将在${rulesTimeLeft}秒后自动关闭`;
             
+            // 清除之前的定时器
             if (rulesTimer) clearInterval(rulesTimer);
             
+            // 开始倒计时
             rulesTimer = setInterval(() => {
                 rulesTimeLeft--;
                 rulesCountdown.textContent = `窗口将在${rulesTimeLeft}秒后自动关闭`;
@@ -1084,6 +1250,7 @@
         
         // 开始1+1游戏
         function startGame1() {
+            // 重置游戏状态
             game1State = {
                 playerNums: [1, 1],
                 opponentNums: [1, 1],
@@ -1093,12 +1260,20 @@
                 against: 0
             };
             
+            // 更新显示
             updateGame1Display();
-            game1Console.textContent = '游戏开始！你是先手。';
+            
+            // 重置控制台
+            game1Console.textContent = `游戏开始！初始状态：\n你的数字：${game1State.playerNums[0]} ${game1State.playerNums[1]}\n对手数字：${game1State.opponentNums[0]} ${game1State.opponentNums[1]}`;
+            
+            // 更新步数显示
             moveCounter1.textContent = `步数: ${game1State.moveCount} | 违例次数: ${game1State.against}`;
+            
+            // 激活游戏
             game1Active = true;
             makeMoveBtn.disabled = false;
             
+            // 如果轮到玩家，显示提示
             if (game1State.playerTurn) {
                 game1Console.textContent += '\n轮到你操作了！';
             }
@@ -1106,8 +1281,10 @@
         
         // 开始拿石子游戏
         function startGame2() {
+            // 使用C++算法生成石子堆
             const generatedStones = generateStoneArray();
             
+            // 重置游戏状态
             game2State = {
                 piles: generatedStones,
                 playerTurn: true,
@@ -1117,12 +1294,18 @@
                 violationCount: 0
             };
             
+            // 更新显示
             renderStonePiles();
             renderStoneControls();
+            
+            // 重置控制台
             game2Console.textContent = `游戏开始！石子堆初始状态：${generatedStones.join(' ')}`;
+            
+            // 激活游戏
             game2Active = true;
             takeStonesBtn.disabled = false;
             
+            // 如果轮到玩家，显示提示
             if (game2State.playerTurn) {
                 game2Console.textContent += '\n轮到你操作了！选择石子堆和数量，然后点击"取出石子"。';
             }
@@ -1130,17 +1313,24 @@
         
         // 更新1+1游戏显示
         function updateGame1Display() {
+            // 更新玩家数字
             document.getElementById('playerNum1').textContent = game1State.playerNums[0];
             document.getElementById('playerNum2').textContent = game1State.playerNums[1];
+            
+            // 更新对手数字
             document.getElementById('opponentNum1').textContent = game1State.opponentNums[0];
             document.getElementById('opponentNum2').textContent = game1State.opponentNums[1];
             
+            // 更新数字状态（是否存活）
             updateNumberStatus('playerNum1', game1State.playerNums[0]);
             updateNumberStatus('playerNum2', game1State.playerNums[1]);
             updateNumberStatus('opponentNum1', game1State.opponentNums[0]);
             updateNumberStatus('opponentNum2', game1State.opponentNums[1]);
             
+            // 更新选择框选项
             updateSelectOptions();
+            
+            // 更新步数显示
             moveCounter1.textContent = `步数: ${game1State.moveCount} | 违例次数: ${game1State.against}`;
         }
         
@@ -1159,9 +1349,11 @@
             const playerSelect = document.getElementById('playerNumSelect');
             const opponentSelect = document.getElementById('opponentNumSelect');
             
+            // 清空选项
             playerSelect.innerHTML = '';
             opponentSelect.innerHTML = '';
             
+            // 添加玩家数字选项（只添加存活的）
             if (game1State.playerNums[0] !== 0) {
                 playerSelect.innerHTML += '<option value="1">你的数字1 (' + game1State.playerNums[0] + ')</option>';
             }
@@ -1169,6 +1361,7 @@
                 playerSelect.innerHTML += '<option value="2">你的数字2 (' + game1State.playerNums[1] + ')</option>';
             }
             
+            // 添加对手数字选项（只添加存活的）
             if (game1State.opponentNums[0] !== 0) {
                 opponentSelect.innerHTML += '<option value="1">对手数字1 (' + game1State.opponentNums[0] + ')</option>';
             }
@@ -1176,6 +1369,7 @@
                 opponentSelect.innerHTML += '<option value="2">对手数字2 (' + game1State.opponentNums[1] + ')</option>';
             }
             
+            // 如果没有存活的数字，禁用选择框
             playerSelect.disabled = playerSelect.options.length === 0;
             opponentSelect.disabled = opponentSelect.options.length === 0;
         }
@@ -1194,16 +1388,20 @@
                     <div class="pile-label">堆 ${index + 1}</div>
                 `;
                 
+                // 添加点击事件选择石子堆
                 pileElement.addEventListener('click', () => {
                     if (!game2Active || !game2State.playerTurn || game2State.gameOver) return;
                     
+                    // 移除其他堆的选中状态
                     document.querySelectorAll('.stone-pile').forEach(pile => {
                         pile.classList.remove('active');
                     });
                     
+                    // 选中当前堆
                     pileElement.classList.add('active');
                     game2State.selectedPile = index;
                     
+                    // 更新控制台
                     game2Console.textContent += `\n已选择第 ${index + 1} 堆石子，当前有 ${count} 个石子。`;
                 });
                 
@@ -1226,6 +1424,7 @@
                     </select>
                 `;
                 
+                // 添加数量选项
                 const selectElement = controlElement.querySelector(`#pile-${index}-select`);
                 for (let i = 1; i <= count; i++) {
                     selectElement.innerHTML += `<option value="${i}">取出 ${i} 个</option>`;
@@ -1246,17 +1445,21 @@
                 game2State.selectedPile = pileIndex;
                 game2State.takeAmount = takeAmount;
                 
+                // 移除其他堆的选中状态
                 document.querySelectorAll('.stone-pile').forEach(pile => {
                     pile.classList.remove('active');
                 });
                 
+                // 选中当前堆
                 document.getElementById(`pile-${pileIndex}`).classList.add('active');
+                
                 game2Console.textContent += `\n已选择从第 ${pileIndex + 1} 堆取出 ${takeAmount} 个石子。`;
             }
         }
         
         // 显示结果弹出窗口
         function showResultModal(result, message, game) {
+            // 设置游戏结束状态
             if (game === 'game1') {
                 game1State.gameOver = true;
                 game1Active = false;
@@ -1267,6 +1470,7 @@
                 takeStonesBtn.disabled = true;
             }
             
+            // 设置弹出窗口内容
             if (result === 'win') {
                 resultIcon.textContent = '🏆';
             } else if (result === 'lose') {
@@ -1276,8 +1480,11 @@
             }
             
             resultMessage.textContent = message;
+            
+            // 显示弹出窗口
             resultModal.style.display = 'flex';
             
+            // 更新控制台
             if (game === 'game1') {
                 game1Console.textContent += `\n${message}`;
             } else if (game === 'game2') {
@@ -1295,11 +1502,13 @@
             const playerNumIndex = parseInt(playerNumSelect.value) - 1;
             const opponentNumIndex = parseInt(opponentNumSelect.value) - 1;
             
+            // 验证选择是否有效（按照C++逻辑）
             if (game1State.playerNums[playerNumIndex] === 0 || game1State.opponentNums[opponentNumIndex] === 0 || 
                 playerNumIndex < 0 || playerNumIndex > 1 || opponentNumIndex < 0 || opponentNumIndex > 1) {
                 game1State.against++;
                 game1Console.textContent += '\n违例了哦，再有一次判你输信不信^-^';
                 
+                // 检查是否因为违例而输
                 if (game1State.against >= 2) {
                     showResultModal('lose', '你输了，不听话的孩子要受到惩罚^-^', 'game1');
                     return;
@@ -1309,50 +1518,53 @@
                 return;
             }
             
+            // 执行操作：自己的数字 + 对方的数字，取个位数
             const result = (game1State.playerNums[playerNumIndex] + game1State.opponentNums[opponentNumIndex]) % 10;
             game1State.playerNums[playerNumIndex] = result;
+            
+            // 增加步数
             game1State.moveCount++;
             
+            // 记录操作
+            const operation = `你操作：你的数字${playerNumIndex+1} + 对手数字${opponentNumIndex+1} = ${result}`;
+            game1Console.textContent += `\n${operation}\n当前状态：\n你的数字：${game1State.playerNums[0]} ${game1State.playerNums[1]}\n对手数字：${game1State.opponentNums[0]} ${game1State.opponentNums[1]}`;
+            
+            // 更新显示
             updateGame1Display();
             
-            const operation = `你操作：你的数字${playerNumIndex+1} + 对手数字${opponentNumIndex+1} = ${result}`;
-            game1Console.textContent += '\n' + operation;
-            
+            // 检查游戏是否结束
             if (checkGame1Over()) return;
             
             if (!game1State.gameOver) {
+                // 切换到对手回合
                 game1State.playerTurn = false;
                 game1Console.textContent += '\n对手思考中...';
+                
+                // 禁用操作按钮
                 makeMoveBtn.disabled = true;
                 
+                // 1秒后执行电脑AI操作
                 setTimeout(() => {
-                    // 电脑AI逻辑
-                    const player = game1State.playerNums;
-                    const computer = game1State.opponentNums;
+                    // 执行电脑AI
+                    const success = computerAI();
                     
-                    let flag = 0;
-                    for (let i = 1; i >= 0; i--) {
-                        for (let j = 1; j >= 0; j--) {
-                            if (flag) break;
-                            if (computer[i] + player[j] === 10) {
-                                let otheri = (i === 0) ? 1 : 0;
-                                let otherj = (j === 0) ? 1 : 0;
-                                computer[i] = (computer[i] + player[otherj]) % 10;
-                                flag = 1;
-                            }
-                        }
+                    if (!success) {
+                        // 如果computerAI返回false，表示游戏结束
+                        checkGame1Over();
+                        return;
                     }
                     
-                    if (!flag) {
-                        computer[0] = (computer[0] + player[1]) % 10;
-                    }
-                    
-                    game1State.moveCount++;
+                    // 更新显示
                     updateGame1Display();
                     
+                    // 记录对手操作
+                    game1Console.textContent += `\n对手操作完成\n当前状态：\n你的数字：${game1State.playerNums[0]} ${game1State.playerNums[1]}\n对手数字：${game1State.opponentNums[0]} ${game1State.opponentNums[1]}`;
+                    
+                    // 检查游戏是否结束
                     if (checkGame1Over()) return;
                     
                     if (!game1State.gameOver) {
+                        // 切换回玩家回合
                         game1State.playerTurn = true;
                         game1Console.textContent += '\n轮到你操作了！';
                         makeMoveBtn.disabled = false;
@@ -1373,10 +1585,12 @@
             const pileIndex = game2State.selectedPile;
             const takeAmount = game2State.takeAmount;
             
+            // 验证操作是否有效（按照C++逻辑）
             if (pileIndex < 0 || pileIndex > 6 || game2State.piles[pileIndex] < takeAmount) {
                 game2State.violationCount++;
                 game2Console.textContent += '\n违例了哦，再有一次判你输信不信^-^';
                 
+                // 检查是否因为违例而输
                 if (game2State.violationCount >= 2) {
                     showResultModal('lose', '你输了，不听话的孩子要受到惩罚^-^', 'game2');
                     return;
@@ -1385,37 +1599,52 @@
                 return;
             }
             
+            // 执行操作：从选中的堆中取出石子
             game2State.piles[pileIndex] -= takeAmount;
+            
+            // 记录操作
             const operation = `你从第 ${pileIndex + 1} 堆取出了 ${takeAmount} 个石子`;
             game2Console.textContent += '\n' + operation + '\n当前石子堆：' + game2State.piles.join(' ');
             
+            // 检查游戏是否结束
             if (empty(game2State.piles)) {
                 showResultModal('win', '我还会再回来的\n恭喜你，快点截屏找hyc领2块钱吧', 'game2');
                 return;
             }
             
+            // 更新显示
             renderStonePiles();
             renderStoneControls();
             
             if (!game2State.gameOver) {
+                // 切换到对手回合
                 game2State.playerTurn = false;
                 game2Console.textContent += '\n对手思考中...';
+                
+                // 禁用操作按钮
                 takeStonesBtn.disabled = true;
                 
+                // 1秒后执行电脑AI操作（使用C++算法）
                 setTimeout(() => {
+                    // 执行电脑AI（C++算法）
                     const newPiles = computerMove([...game2State.piles]);
                     game2State.piles = newPiles;
                     
+                    // 更新显示
                     renderStonePiles();
                     renderStoneControls();
+                    
+                    // 记录操作
                     game2Console.textContent += `\n对手操作完成\n当前石子堆：${game2State.piles.join(' ')}`;
                     
+                    // 检查游戏是否结束
                     if (empty(game2State.piles)) {
                         showResultModal('lose', '大人，时代变了', 'game2');
                         return;
                     }
                     
                     if (!game2State.gameOver) {
+                        // 切换回玩家回合
                         game2State.playerTurn = true;
                         game2Console.textContent += '\n轮到你操作了！选择石子堆和数量，然后点击"取出石子"。';
                         takeStonesBtn.disabled = false;
@@ -1426,22 +1655,24 @@
         
         // 检查1+1游戏是否结束
         function checkGame1Over() {
-            if (game1State.moveCount >= 50) {
+            // 检查步数是否超过40步（C++中是40步）
+            if (game1State.moveCount >= 40) {
                 showResultModal('draw', '你永远赢不了我', 'game1');
                 return true;
             }
             
-            const opponentAllDead = game1State.opponentNums[0] === 0 && game1State.opponentNums[1] === 0;
+            // 检查玩家是否两个数字都不存活（C++中是玩家胜利条件）
             const playerAllDead = game1State.playerNums[0] === 0 && game1State.playerNums[1] === 0;
             
-            if (playerAllDead && !opponentAllDead) {
-                showResultModal('lose', '菜就多练', 'game1');
+            // 检查对手是否两个数字都不存活（C++中是电脑胜利条件）
+            const opponentAllDead = game1State.opponentNums[0] === 0 && game1State.opponentNums[1] === 0;
+            
+            // 根据C++程序逻辑：玩家数字全为0时电脑胜利，对手数字全为0时玩家胜利
+            if (playerAllDead) {
+                showResultModal('lose', '大人，时代变了', 'game1');
                 return true;
-            } else if (opponentAllDead && !playerAllDead) {
+            } else if (opponentAllDead) {
                 showResultModal('win', '我还会再回来的\n恭喜你，快点截屏找hyc领2块钱吧', 'game1');
-                return true;
-            } else if (playerAllDead && opponentAllDead) {
-                showResultModal('draw', '平局！双方数字都不存活。', 'game1');
                 return true;
             }
             
@@ -1460,6 +1691,7 @@
                 game2Active = false;
             }
             
+            // 重置当前游戏
             currentGame = null;
         }
         
@@ -1470,17 +1702,24 @@
                 const snowflake = document.createElement('div');
                 snowflake.classList.add('snowflake');
                 
+                // 随机大小
                 const size = Math.random() * 10 + 5;
                 snowflake.style.width = `${size}px`;
                 snowflake.style.height = `${size}px`;
+                
+                // 随机位置
                 snowflake.style.left = `${Math.random() * 100}vw`;
                 snowflake.style.top = `${Math.random() * 100}vh`;
+                
+                // 随机透明度
                 snowflake.style.opacity = Math.random() * 0.7 + 0.3;
                 
+                // 动画
                 const duration = Math.random() * 10 + 10;
                 const delay = Math.random() * 5;
                 snowflake.style.animation = `fall ${duration}s linear ${delay}s infinite`;
                 
+                // 添加到页面
                 snowflakesContainer.appendChild(snowflake);
             }
         }
@@ -1501,11 +1740,15 @@
         
         // 初始化页面
         function init() {
+            // 初始显示游戏选择界面
             game1Container.style.display = 'none';
             game2Container.style.display = 'none';
+            
+            // 创建雪花效果
             createSnowflakes();
         }
         
+        // 页面加载完成后初始化
         window.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
